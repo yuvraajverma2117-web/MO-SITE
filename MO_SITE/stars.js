@@ -1,11 +1,10 @@
-// Lightweight canvas starfield with gentle twinkle. No dependencies.
-(functions (){
+(function () {
   var canvas = document.getElementById('stars');
-if (!canvas) return;
-var ctx = canvas.getContext('2d');
-var stars = [];
-var reduceMotion = window.matchMedia ('(prefers-reduced-motion: reduce)').matches)
-
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var stars = [];
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  
   function resize() {
     canvas.width = window.innerWidth * devicePixelRatio;
     canvas.height = window.innerHeight * devicePixelRatio;
