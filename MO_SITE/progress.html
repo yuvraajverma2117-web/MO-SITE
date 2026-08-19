@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress — MO_SITE</title>
+<meta name="description" content="Topic-by-topic progress toward IOQM, and what's next on the olympiad path.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="stars" aria-hidden="true"></canvas>
+
+<nav class="constellation-nav">
+  <a class="mark" href="index.html">MO_SITE</a>
+  <ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="about.html">about</a></li>
+    <li><a href="progress.html" aria-current="page">progress</a></li>
+  </ul>
+</nav>
+
+<main class="shell">
+
+  <section class="hero" style="margin-top:0; padding-top:64px; padding-bottom:32px;">
+    <p class="eyebrow">Status report</p>
+    <h1>Where things<br>actually <span>stand</span>.</h1>
+    <p class="lede">No highlight reel. Just what's solid, what's shaky, and how many days are left before IOQM.</p>
+  </section>
+
+  <section aria-labelledby="topics-head">
+    <div class="section-head">
+      <span class="tag">01</span>
+      <h2 id="topics-head">Topic mastery</h2>
+    </div>
+    <div class="topic-bars">
+      <div class="topic-bar">
+        <div class="row"><span>Number Theory</span><span>strongest</span></div>
+        <div class="track"><div class="fill" style="width:75%"></div></div>
+      </div>
+      <div class="topic-bar">
+        <div class="row"><span>Algebra</span><span>solid</span></div>
+        <div class="track"><div class="fill" style="width:60%"></div></div>
+      </div>
+      <div class="topic-bar">
+        <div class="row"><span>Combinatorics</span><span>rebuilding</span></div>
+        <div class="track"><div class="fill" style="width:35%"></div></div>
+      </div>
+      <div class="topic-bar">
+        <div class="row"><span>Geometry</span><span>rebuilding</span></div>
+        <div class="track"><div class="fill" style="width:30%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="plan-head">
+    <div class="section-head">
+      <span class="tag">02</span>
+      <h2 id="plan-head">80-day plan</h2>
+    </div>
+    <div class="card-list">
+      <div class="card">
+        <div class="card-head">
+          <h3>Phase 1 — Foundations</h3>
+          <span class="status">Number Theory → Algebra</span>
+        </div>
+        <p>Rebuilding core NT and algebra from first principles before layering on harder problem sets.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>Phase 2 — Weak spots</h3>
+          <span class="status">Combinatorics → Geometry</span>
+        </div>
+        <p>Dedicated rebuild of combinatorics and geometry — the two topics costing the most marks right now. Working through Evan Chen's EGMO for synthetic technique.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>Phase 3 — Simulation</h3>
+          <span class="status">Timed papers</span>
+        </div>
+        <p>Full timed papers and exam-day simulation in the final stretch before Sept 6.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="path-head">
+    <div class="section-head">
+      <span class="tag">03</span>
+      <h2 id="path-head">Full path</h2>
+    </div>
+    <ul class="roadmap">
+      <li class="active">
+        <div class="stage-name">IOQM</div>
+        <div class="stage-meta">Sept 6 · qualifying score is the target</div>
+        <div class="stage-note">Previous attempt: 12 marks. This cycle is about closing the gap in geometry and combinatorics.</div>
+      </li>
+      <li><div class="stage-name">RMO</div><div class="stage-meta">Regional round, next up after qualifying</div></li>
+      <li><div class="stage-name">INMO</div><div class="stage-meta">National round</div></li>
+      <li><div class="stage-name">IMOTC</div><div class="stage-meta">Training camp selection</div></li>
+      <li><div class="stage-name">IMO</div><div class="stage-meta">The long-term target</div></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <span>MO_SITE — built one late night at a time.</span>
+  <span>Bajna, Uttar Pradesh</span>
+</footer>
+
+<script src="stars.js"></script>
+</body>
+</html>
